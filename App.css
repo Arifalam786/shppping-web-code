@@ -1,0 +1,245 @@
+.header {
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 1px;
+}
+
+.head1 {
+    display: flex;
+    margin-left: 5px;
+}
+
+.head1a {
+    font-size: large;
+}
+
+.shop {
+    margin-left: 10px;
+    color: rgb(255, 182, 46);
+}
+
+.head2 {
+    display: flex;
+}
+
+.head3 {
+    display: flex;
+    margin-right: 5px;
+}
+
+.head2a {
+    margin: 10px;
+}
+
+.head3a {
+    margin: 10px;
+}
+
+.ship {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shipa {
+    margin-left: 10px;
+    font-size: x-large;
+}
+
+.ship-info {
+    font-size: larger;
+}
+
+.tl {
+    display: flex;
+    margin-right: 10px;
+}
+
+.tl-icon2 {
+    top: 0;
+    color: white;
+    background-color: rgb(4, 155, 97);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotatey(180deg);
+}
+
+.tl-icon1 {
+    top: 0;
+    border: 2px solid rgb(4, 155, 97);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 50px;
+}
+
+.cont {
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+.but {
+    margin: 3px;
+    background-color: transparent;
+    border: 1px solid grey;
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+}
+
+#log {
+    background-color: rgb(4, 155, 97);
+    color: white;
+}
+
+.input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.inp-item {
+    height: 2rem;
+    margin: 1px;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+#country {
+    height: 2.2rem;
+}
+
+.pay-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.pay {
+    margin: 1px;
+    background-color: transparent;
+    height: 2rem;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+.pay-method {
+    font-size: larger;
+}
+
+.pay-meth {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.payment-icon {
+    width: 40px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+#phone {
+    width: 40px;
+    height: 20px !important;
+}
+
+#delhi {
+    margin-top: -20px;
+    width: 80px;
+    height: 70px;
+}
+
+.meth {
+    margin: 1px;
+    background-color: transparent;
+    height: 2rem;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+.metha {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.prod-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.pimg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.pimg-cont-a {
+    margin: 0;
+}
+
+.price {
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.pricea {
+    margin: 1px;
+}
+
+.pprice {
+    text-align: end;
+}
+
+.total-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    margin-right: 3px;
+}
+
+.footer {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.foot-but-cal {
+    margin: 2px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+#foot2 {
+    background-color: rgb(4, 155, 97);
+    margin-left: 5px;
+    border: none;
+}
+
+.back-but {
+    background-color: transparent;
+    border: none;
+}
